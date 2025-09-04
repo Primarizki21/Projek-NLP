@@ -3,6 +3,7 @@
     "mudah": [
       {
         "number": 1,
+<<<<<<< HEAD
         "regex": "[Bb]awang\\s?[Mm]erah",
         "answer": "bawang merah",
         "row": 0,
@@ -46,10 +47,16 @@
         "regex": "[Ss]antan",
         "answer": "santan",
         "row": 5,
+=======
+        "regex": "\\b[lL]aos\\b",
+        "answer": "laos",
+        "row": 0,
+>>>>>>> d474c57 (move questions to a json file)
         "col": 0,
         "direction": "across"
       },
       {
+<<<<<<< HEAD
         "number": 7,
         "regex": "[Dd]aun\\s?[Jj]eruk",
         "answer": "daunjeruk",
@@ -64,6 +71,14 @@
         "row": 9,
         "col": 7,
         "direction": "across"
+=======
+        "number": 2,
+        "regex": "\\b[sS]erai\\b",
+        "answer": "serai",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+>>>>>>> d474c57 (move questions to a json file)
       }
     ],
     "sedang": [
