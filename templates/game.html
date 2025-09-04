@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>TTS Regex - {{ part }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+  <h1>Teka-Teki Silang Regex: {{ part|capitalize }} ({{ difficulty|capitalize }})</h1>
+  
+  <div class="crossword-grid" id="crossword"></div>
+
+  <div class="questions">
+    <h2>Clue (Regex):</h2>
+    <ul>
+      {% for q in questions %}
+        <li><strong>{{ q.number }}.</strong> <code>{{ q.regex }}</code> ({{ q.direction }})</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <button onclick="checkAnswers()">Periksa Jawaban</button>
+
+  <script>
+    var questions = {{ questions|tojson|safe }};
+  </script>
+</body>
+</html>
