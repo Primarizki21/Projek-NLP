@@ -1,0 +1,170 @@
+{
+  "rendang": {
+    "mudah": [
+      {
+        "number": 1,
+        "regex": "\\b[lL]aos\\b",
+        "answer": "laos",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[sS]erai\\b",
+        "answer": "serai",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "sedang": [
+      {
+        "number": 1,
+        "regex": "\\b[sS]antan\\b",
+        "answer": "santan",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[kK]unyit\\b",
+        "answer": "kunyit",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      }
+    ],
+    "sulit": [
+      {
+        "number": 1,
+        "regex": "\\b[cC]abai\\b",
+        "answer": "cabai",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[kK]emiri\\b",
+        "answer": "kemiri",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      }
+    ]
+  },
+  "soto": {
+    "mudah": [
+      {
+        "number": 1,
+        "regex": "\\b[bB]awang\\b",
+        "answer": "bawang",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[jJ]ahe\\b",
+        "answer": "jahe",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      }
+    ],
+    "sedang": [
+      {
+        "number": 1,
+        "regex": "\\b[kK]unyit\\b",
+        "answer": "kunyit",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[dD]aun\\b",
+        "answer": "daun",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      }
+    ],
+    "sulit": [
+      {
+        "number": 1,
+        "regex": "\\b[kK]apulaga\\b",
+        "answer": "kapulaga",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[kK]ayu\\b",
+        "answer": "kayu",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      }
+    ]
+  },
+  "rawon": {
+    "mudah": [
+      {
+        "number": 1,
+        "regex": "\\b[kK]luwek\\b",
+        "answer": "kluwek",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[gG]ula\\b",
+        "answer": "gula",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      }
+    ],
+    "sedang": [
+      {
+        "number": 1,
+        "regex": "\\b[lL]engkuas\\b",
+        "answer": "lengkuas",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[sS]antan\\b",
+        "answer": "santan",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      }
+    ],
+    "sulit": [
+      {
+        "number": 1,
+        "regex": "\\b[kK]etumbar\\b",
+        "answer": "ketumbar",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[kK]encur\\b",
+        "answer": "kencur",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      }
+    ]
+  }
+}
