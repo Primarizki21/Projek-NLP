@@ -3,19 +3,67 @@
     "mudah": [
       {
         "number": 1,
-        "regex": "\\b[lL]aos\\b",
-        "answer": "laos",
+        "regex": "[Bb]awang\\s?[Mm]erah",
+        "answer": "bawang merah",
         "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "regex": "[Bb]awang\\s?[Pp]utih",
+        "answer": "bawang putih",
+        "row": 0,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "regex": "[Dd]aun\\s?[Ss]alam",
+        "answer": "daunsalam",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "number": 4,
+        "regex": "[Jj]ahe",
+        "answer": "jahe",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "regex": "[Gg]aram",
+        "answer": "garam",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "regex": "[Ss]antan",
+        "answer": "santan",
+        "row": 5,
         "col": 0,
         "direction": "across"
       },
       {
-        "number": 2,
-        "regex": "\\b[sS]erai\\b",
-        "answer": "serai",
-        "row": 2,
-        "col": 0,
-        "direction": "down"
+        "number": 7,
+        "regex": "[Dd]aun\\s?[Jj]eruk",
+        "answer": "daunjeruk",
+        "row": 7,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "number": 8,
+        "regex": "[Dd]aging\\s?[Ss]api",
+        "answer": "dagingsapi",
+        "row": 9,
+        "col": 7,
+        "direction": "across"
       }
     ],
     "sedang": [
