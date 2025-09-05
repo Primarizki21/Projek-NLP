@@ -69,37 +69,133 @@
     "sedang": [
       {
         "number": 1,
-        "regex": "\\b[sS]antan\\b",
-        "answer": "santan",
+        "regex": "\\b[Ss]erai\\b",
+        "answer": "serai",
         "row": 0,
-        "col": 0,
-        "direction": "across"
+        "col": 8,
+        "direction": "down"
       },
       {
         "number": 2,
         "regex": "\\b[kK]unyit\\b",
         "answer": "kunyit",
         "row": 0,
-        "col": 3,
+        "col": 12,
         "direction": "down"
+      },
+      {
+        "number": 3,
+        "regex": "\\b[Ll]engkuas\\b",
+        "answer": "lengkuas",
+        "row": 1,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "number": 4,
+        "regex": "\\b[Gg]ula\\b",
+        "answer": "gula",
+        "row": 1,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "regex": "\\b[Cc]abai\\s+[Rr]awit\\b",
+        "answer": "cabairawit",
+        "row": 1,
+        "col": 10,
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "regex": "\\b[Aa]sam\\s+[Jj]awa\\b",
+        "answer": "asamjawa",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "regex": "\\b[Dd]aun\\s+[Kk]unyit\\b",
+        "answer": "daunkunyit",
+        "row": 9,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "number": 8,
+        "regex": "\\b[Kk]elapa\\s+[Ss]angrai\\b",
+        "answer": "kelapasangrai",
+        "row": 11,
+        "col": 0,
+        "direction": "across"
       }
     ],
     "sulit": [
-      {
+          {
         "number": 1,
-        "regex": "\\b[cC]abai\\b",
-        "answer": "cabai",
+        "regex": "\\b[cC]engkeh\\b",
+        "answer": "cengkeh",
         "row": 0,
-        "col": 0,
+        "col": 2,
         "direction": "across"
       },
       {
         "number": 2,
+        "regex": "\\b[kK]apulaga\\b",
+        "answer": "kapulaga",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "regex": "\\b[pP]ala\\b",
+        "answer": "pala",
+        "row": 2,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "number": 4,
+        "regex": "\\b[lL]ada\\b",
+        "answer": "lada",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "regex": "\\b[kK]ayu[ ]?[mM]anis\\b",
+        "answer": "kayu manis",
+        "row": 4,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "regex": "\\b[bB]unga[ ]?[lL]awang\\b",
+        "answer": "bunga lawang",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "number": 7,
+        "regex": "\\b[kK]etumbar\\b",
+        "answer": "ketumbar",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 8,
         "regex": "\\b[kK]emiri\\b",
         "answer": "kemiri",
-        "row": 1,
-        "col": 2,
-        "direction": "down"
+        "row": 8,
+        "col": 8,
+        "direction": "across"
       }
     ]
   },
