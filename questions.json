@@ -1,0 +1,218 @@
+{
+  "rendang": {
+    "mudah": [
+      {
+        "number": 1,
+        "regex": "[Bb]awang\\s?[Mm]erah",
+        "answer": "bawang merah",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "regex": "[Bb]awang\\s?[Pp]utih",
+        "answer": "bawang putih",
+        "row": 0,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "regex": "[Dd]aun\\s?[Ss]alam",
+        "answer": "daunsalam",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "number": 4,
+        "regex": "[Jj]ahe",
+        "answer": "jahe",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "regex": "[Gg]aram",
+        "answer": "garam",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "regex": "[Ss]antan",
+        "answer": "santan",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 7,
+        "regex": "[Dd]aun\\s?[Jj]eruk",
+        "answer": "daunjeruk",
+        "row": 7,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "number": 8,
+        "regex": "[Dd]aging\\s?[Ss]api",
+        "answer": "dagingsapi",
+        "row": 9,
+        "col": 7,
+        "direction": "across"
+      }
+    ],
+    "sedang": [
+      {
+        "number": 1,
+        "regex": "\\b[sS]antan\\b",
+        "answer": "santan",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[kK]unyit\\b",
+        "answer": "kunyit",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      }
+    ],
+    "sulit": [
+      {
+        "number": 1,
+        "regex": "\\b[cC]abai\\b",
+        "answer": "cabai",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[kK]emiri\\b",
+        "answer": "kemiri",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      }
+    ]
+  },
+  "soto": {
+    "mudah": [
+      {
+        "number": 1,
+        "regex": "\\b[bB]awang\\b",
+        "answer": "bawang",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[jJ]ahe\\b",
+        "answer": "jahe",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      }
+    ],
+    "sedang": [
+      {
+        "number": 1,
+        "regex": "\\b[kK]unyit\\b",
+        "answer": "kunyit",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[dD]aun\\b",
+        "answer": "daun",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      }
+    ],
+    "sulit": [
+      {
+        "number": 1,
+        "regex": "\\b[kK]apulaga\\b",
+        "answer": "kapulaga",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[kK]ayu\\b",
+        "answer": "kayu",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      }
+    ]
+  },
+  "rawon": {
+    "mudah": [
+      {
+        "number": 1,
+        "regex": "\\b[kK]luwek\\b",
+        "answer": "kluwek",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[gG]ula\\b",
+        "answer": "gula",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      }
+    ],
+    "sedang": [
+      {
+        "number": 1,
+        "regex": "\\b[lL]engkuas\\b",
+        "answer": "lengkuas",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[sS]antan\\b",
+        "answer": "santan",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      }
+    ],
+    "sulit": [
+      {
+        "number": 1,
+        "regex": "\\b[kK]etumbar\\b",
+        "answer": "ketumbar",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 2,
+        "regex": "\\b[kK]encur\\b",
+        "answer": "kencur",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      }
+    ]
+  }
+}

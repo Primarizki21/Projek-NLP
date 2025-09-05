@@ -14,8 +14,6 @@ body {
 
 .crossword-grid {
   display: grid;
-  grid-template-columns: repeat(10, 40px);
-  grid-template-rows: repeat(10, 40px);
   gap: 2px;
   margin: 20px auto;
   width: fit-content;
@@ -44,4 +42,10 @@ body {
   font-size: 10px;
   position: absolute;
   margin: 2px;
+}
+
+.cell.empty {
+  border: none;
+  background: transparent;
+  pointer-events: none;
 }
