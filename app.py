@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
-import json, os
+import json
+import os
 
 app = Flask(__name__)
 
