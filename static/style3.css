@@ -1,0 +1,91 @@
+/* style.css */
+
+/* Reset dasar agar tidak ada spasi putih aneh di pinggir */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif; /* Menggunakan font dari kode lama Anda */
+}
+
+body {
+  /* Ganti 'nama-gambar.jpg' dengan nama file gambar Anda. */
+  /* Pastikan gambar ada di dalam folder 'static' */
+  /*background-image: url('nama-gambar.jpg'); */
+  /*background: linear-gradient(135deg, #44186c, #6c189b);/*
+  
+  /* Properti kunci untuk background responsif */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Opsional: untuk efek background tidak bergerak */
+  
+  /* Properti kunci untuk centering dengan Flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling untuk kotak menu utama */
+.menu-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Putih agak transparan */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 80%;
+  max-width: 400px; /* Batas lebar maksimal */
+}
+
+.menu-container h1 {
+    margin-top: 0; /* Menghapus margin atas pada judul */
+    margin-bottom: 25px;
+    color: #333; /*teks nya gelap*/
+    font-weight: bold;
+}
+
+/* Styling umum untuk elemen form agar rapi */
+.menu-container form label,
+.menu-container form select,
+.menu-container form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.menu-container form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left; /* Label rata kiri */
+    color: #555
+}
+
+.menu-container form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color:  #f9f9f9;
+}
+
+/* Styling utama untuk tombol "Mulai" */
+.menu-container form button {
+  padding: 12px 20px;
+  border: none;
+  /* gradasi tombol */
+  background-color: linear-gradient(to right, #007BFF, #0056b3);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Efek saat kursor mouse berada di atas tombol */
+.menu-container form button:hover {
+  background-color: linear-gradien(to right, #0056b3, #003d82);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
