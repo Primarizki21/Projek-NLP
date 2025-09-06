@@ -9,31 +9,25 @@ html, body {
 }
 
 body {
-  /* Ganti 'nama-gambar.jpg' dengan nama file gambar Anda. */
-  /* Pastikan gambar ada di dalam folder 'static' */
-  background-image: url('nama-gambar.jpg'); 
-  
-  /* Properti kunci untuk background responsif */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Opsional: untuk efek background tidak bergerak */
-  
-  /* Properti kunci untuk centering dengan Flexbox */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 /* Styling untuk kotak menu utama */
 .menu-container {
-  background-color: rgba(255, 255, 255, 0.9); /* Putih agak transparan */
+  background-color: rgba(255, 255, 255, 0.95);
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   text-align: center;
-  width: 80%;
-  max-width: 400px; /* Batas lebar maksimal */
+  width: 90%;
+  max-width: 450px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .menu-container h1 {
