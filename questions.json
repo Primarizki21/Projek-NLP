@@ -37,7 +37,7 @@
         "number": 5,
         "regex": "[Gg]aram",
         "answer": "garam",
-        "row": 5,
+        "row": 4,
         "col": 4,
         "direction": "down"
       },
