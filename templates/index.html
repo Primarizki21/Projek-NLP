@@ -4,15 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pilih Tingkat & Part</title>
-  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
 </head>
   
 <body>
-
   <img src="{{ url_for('static', filename='images/rendang.png') }}" alt="Rendang" class="food-animation food-1">
   <img src="{{ url_for('static', filename='images/soto.png') }}" alt="Soto" class="food-animation food-2">
   <img src="{{ url_for('static', filename='images/rawon.png') }}" alt="Rawon" class="food-animation food-3">
@@ -23,8 +22,8 @@
     <h1>GAME TTS REGEX 🧩</h1>
   </div>
 
-  <div class="main-menu menu-box">
 
+  <div class="main-menu menu-box">
     <form method="POST">
       <label for="difficulty">Pilih Tingkat Kesulitan:</label>
       <select name="difficulty" id="difficulty" required>
