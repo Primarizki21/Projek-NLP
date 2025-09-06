@@ -4,19 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pilih Tingkat & Part</title>
-  
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-
 </head>
+  
 <body>
-  <div class="menu-container">
-    <h1>Game TTS Regex</h1>
+  <div class="menu-container", id="menuContainer">
+    <h1>Game TTS Regex 🧩</h1>
     <form method="POST">
       <label for="difficulty">Pilih Tingkat Kesulitan:</label>
       <select name="difficulty" id="difficulty" required>
-        <option value="mudah">Mudah</option>
-        <option value="sedang">Sedang</option>
-        <option value="sulit">Sulit</option>
+        <option value="mudah">Mudah 🟢</option>
+        <option value="sedang">Sedang 🟡</option>
+        <option value="sulit">Sulit 🔴</option>
       </select>
 
       <label for="part">Pilih Part (Masakan):</label>
@@ -26,7 +25,7 @@
         <option value="rawon">Rawon</option>
       </select>
 
-      <button type="submit">Mulai</button>
+      <button type="submit">Mulai 🚀</button>
     </form>
   </div>
 </body>
