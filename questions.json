@@ -37,7 +37,7 @@
         "number": 5,
         "regex": "[Gg]aram",
         "answer": "garam",
-        "row": 5,
+        "row": 4,
         "col": 4,
         "direction": "down"
       },
@@ -203,8 +203,8 @@
     "mudah": [
       {
         "number": 1,
-        "regex": "\\b[bB]awang\\b",
-        "answer": "bawang",
+        "regex": "\\b[bB]awang m[bB]erah\\b",
+        "answer": "bawang merah",
         "row": 0,
         "col": 0,
         "direction": "across"
@@ -259,55 +259,152 @@
     "mudah": [
       {
         "number": 1,
-        "regex": "\\b[kK]luwek\\b",
-        "answer": "kluwek",
+        "regex": "(?i)\\bdaun salam\\b",
+        "answer": "daun salam",
         "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "regex": "(?i)\\bdaging sapi\\b",
+        "answer": "daging sapi",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "regex": "(?i)\\bgula merah\\b",
+        "answer": "gula merah",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "number": 4,
+        "regex": "(?i)\\bgaram\\b",
+        "answer": "garam",
+        "row": 7,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "regex": "(?i)\\bbawang merah\\b",
+        "answer": "bawang merah",
+        "row": 8,
         "col": 0,
         "direction": "across"
       },
       {
-        "number": 2,
-        "regex": "\\b[gG]ula\\b",
-        "answer": "gula",
-        "row": 1,
-        "col": 2,
-        "direction": "down"
+        "number": 6,
+        "regex": "(?i)\\bbawang putih\\b",
+        "answer": "bawang putih",
+        "row": 11,
+        "col": 3,
+        "direction": "across"
       }
+
     ],
     "sedang": [
       {
         "number": 1,
-        "regex": "\\b[lL]engkuas\\b",
+        "regex": "(?i)\\blengkuas|laos\\b",
         "answer": "lengkuas",
         "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "regex": "(?i)\\bketumbar\\b",
+        "answer": "ketumbar",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "number": 3,
+        "regex": "(?i)\\bkemiri\\b",
+        "answer": "kemiri",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "regex": "(?i)\\bkunyit|kunir\\b",
+        "answer": "kunyit",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "regex": "(?i)\\bdaun ?jeruk\\b",
+        "answer": "daun jeruk",
+        "row": 5,
         "col": 0,
         "direction": "across"
       },
       {
-        "number": 2,
-        "regex": "\\b[sS]antan\\b",
-        "answer": "santan",
-        "row": 2,
+        "number": 6,
+        "regex": "(?i)\\bserai|sereh\\b",
+        "answer": "serai",
+        "row": 8,
         "col": 3,
-        "direction": "down"
+        "direction": "across"
       }
     ],
     "sulit": [
       {
         "number": 1,
-        "regex": "\\b[kK]etumbar\\b",
-        "answer": "ketumbar",
+        "regex": "(?i)kluwek|kluwak",
+        "answer": "kluwek",
         "row": 0,
-        "col": 0,
+        "col": 3,
         "direction": "across"
       },
       {
         "number": 2,
-        "regex": "\\b[kK]encur\\b",
-        "answer": "kencur",
-        "row": 2,
+        "regex": "(?i)lada|mrica|merica",
+        "answer": "lada",
+        "row": 0,
         "col": 4,
         "direction": "down"
+      },
+      {
+        "number": 3,
+        "regex": "(?i)asam( ?jawa)?",
+        "answer": "asam jawa",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "number": 4,
+        "regex": "(?i)jinten|jintan",
+        "answer": "jinten",
+        "row": 3,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "regex": "(?i)daun ?melinjo",
+        "answer": "daun melinjo",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "regex": "(?i)kencur|kaencur",
+        "answer": "kencur",
+        "row": 7,
+        "col": 7,
+        "direction": "across"
       }
     ]
   }
