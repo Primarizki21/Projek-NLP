@@ -337,7 +337,7 @@
       },
       {
         "number": 3,
-        "regex": "(?=.[dD])(?=.[a-z]{1,2}j)(?=.[a-z]{1,3}k)(?=.[uU])[a-z]{6,8}",
+        "regex": "(?i)\bc[a-z]{2}g[a-z]?[kK]?[eE]h?\b",
         "answer": "cengkeh",
         "row": 1,
         "col": 2,
