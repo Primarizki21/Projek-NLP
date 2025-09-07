@@ -1,4 +1,4 @@
-FROM 3.8.20
+FROM python:3.8-slim
 
 # Ini bukan dari gcp nya, tapi yang ngeset kita sendiri
 WORKDIR /app
