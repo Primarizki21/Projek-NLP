@@ -203,8 +203,8 @@
     "mudah": [
       {
         "number": 1,
-        "regex": "\\b[bB]awang\\b",
-        "answer": "bawang",
+        "regex": "\\b[bB]awang m[bB]erah\\b",
+        "answer": "bawang merah",
         "row": 0,
         "col": 0,
         "direction": "across"
