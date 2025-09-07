@@ -63,5 +63,5 @@ function handleSubmit(event) {
     console.log('Selected part:', part);
     
     // Here you would typically redirect to the game page
-    // window.location.href = `/game?difficulty=${difficulty}&part=${part}`;
+    window.location.href = `/game?difficulty=${difficulty}&part=${part}`;
 }
