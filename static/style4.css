@@ -1,0 +1,251 @@
+/* Reset Dasar */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Bungee', sans-serif;
+    overflow: hidden;
+}
+
+/* Animasi Latar Belakang & Tata Letak Halaman */
+body {
+    background: linear-gradient(135deg, #FF6F00, #FFC107, #FFA000, #FF5722);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+/* Animasi gradasi */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Styling Umum untuk Semua Kotak Menu */
+.menu-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    z-index: 10;
+}
+
+/* Styling Khusus Kotak Judul */
+.title-container h1 {
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Bungee', sans-serif;
+}
+
+.title-container {
+    padding: 20px;
+}
+
+/* Styling Khusus Info Container */
+.info-container p {
+    margin: 5px 0;
+    color: #333;
+    font-weight: normal;
+    font-family: 'Bungee', sans-serif;
+    font-size: 14px;
+}
+
+/* Styling Kotak Menu Utama */
+.main-menu {
+    padding: 40px;
+}
+
+/* Styling Form di Kotak Utama */
+.main-menu form label,
+.main-menu form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-menu form label {
+    margin-bottom: 8px;
+    text-align: left;
+    color: #555;
+    font-size: 14px;
+}
+
+/* Custom Dropdown Styling */
+.custom-select {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.select-selected {
+    background-color: #f9f9f9;
+    padding: 10px 35px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Bungee', sans-serif;
+    font-size: 16px;
+    color: #3f3f3f;
+    transition: all 0.3s ease;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.select-selected:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #666 transparent transparent transparent;
+    transition: transform 0.3s ease;
+}
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #666 transparent;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.select-selected:hover {
+    background-color: #f0f0f0;
+    border-color: #ff9500;
+    box-shadow: 0 2px 4px rgba(255, 149, 0, 0.2);
+}
+
+.select-items {
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
+
+.select-items div {
+    color: #333;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-family: 'Bungee', sans-serif;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.select-items div:hover {
+    background-color: #ff9500;
+    color: white;
+    transform: translateX(5px);
+}
+
+.select-items div:first-child {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.select-items div:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:active {
+    background-color: #e68900;
+}
+
+/* Styling Tombol "Mulai" */
+.main-menu form button {
+    padding: 12px 20px;
+    border: none;
+    background: linear-gradient(to right, #ff9500, #ffa200);
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Bungee', sans-serif;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.main-menu form button:hover {
+    background: linear-gradient(to right, #a56300, #8c5401);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Styling Gambar Makanan Animasi */
+.food-animation {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    animation-name: foodMove;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    opacity: 0.8;
+    z-index: 5;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,0.3), transparent);
+}
+
+.food-1 { 
+    animation-delay: 0s; 
+    background-color: #8B4513;
+}
+.food-2 { 
+    animation-delay: 4s; 
+    background-color: #DAA520;
+}
+.food-3 { 
+    animation-delay: 8s; 
+    background-color: #2F4F4F;
+}
+.food-4 { 
+    animation-delay: 12s; 
+    background-color: #CD853F;
+}
+.food-5 { 
+    animation-delay: 16s; 
+    background-color: #8FBC8F;
+}
+
+/* Keyframes untuk menggerakkan gambar makanan */
+@keyframes foodMove {
+    0% { top: -10%; left: 10%; transform: rotate(0deg); }
+    25% { top: 20%; left: 90%; transform: rotate(90deg); }
+    50% { top: 80%; left: 20%; transform: rotate(180deg); }
+    75% { top: 50%; left: -10%; transform: rotate(270deg); }
+    100% { top: -10%; left: 10%; transform: rotate(360deg); }
+}
+
+/* Emoji styling for food items */
+.food-1::after { content: "🍖"; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 40px; }
+.food-2::after { content: "🍲"; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 40px; }
+.food-3::after { content: "🍜"; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 40px; }
+.food-4::after { content: "🍢"; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 40px; }
+.food-5::after { content: "🥘"; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 40px; }
