@@ -48,6 +48,47 @@ window.onload = () => {
         if (!cell.classList.contains("empty") && !cell.querySelector("input")) {
           let input = document.createElement("input");
           input.maxLength = 1;
+          let curRow = row;
+          let curCol = col;
+
+          // Tambahkan event untuk pindah otomatis
+          input.addEventListener("input", function () {
+            if (this.value.length === 1) {
+              let nextRow = curRow;
+              let nextCol = curCol;
+
+              if (q.direction === "across") {
+                nextCol++;
+              } else {
+                nextRow++;
+              }
+
+              let nextCell = document.querySelector(`.cell[data-row="${nextRow}"][data-col="${nextCol}"] input`);
+              if (nextCell) {
+                nextCell.focus();
+              }
+            }
+          });
+
+          // Navigasi pakai panah keyboard
+          input.addEventListener("keydown", function (e) {
+            if (e.key.startsWith("Arrow")) {
+              let nextRow = curRow;
+              let nextCol = curCol;
+
+              if (e.key === "ArrowRight") nextCol++;
+              if (e.key === "ArrowLeft") nextCol--;
+              if (e.key === "ArrowDown") nextRow++;
+              if (e.key === "ArrowUp") nextRow--;
+
+              let nextCell = document.querySelector(`.cell[data-row="${nextRow}"][data-col="${nextCol}"] input`);
+              if (nextCell) {
+                e.preventDefault(); // cegah efek default arrow (cursor geser di input)
+                nextCell.focus();
+              }
+            }
+          });
+
           cell.appendChild(input);
         }
         if (i === 0) {

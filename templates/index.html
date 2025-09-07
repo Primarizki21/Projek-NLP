@@ -22,27 +22,35 @@
     <h1>GAME TTS REGEX 🧩</h1>
   </div>
 
-
   <div class="main-menu menu-box">
-    <form method="POST">
+    <form onsubmit="handleSubmit(event)">
       <label for="difficulty">Pilih Tingkat Kesulitan:</label>
-      <select name="difficulty" id="difficulty" required>
-        <option value="mudah">Mudah 🟢</option>
-        <option value="sedang">Sedang 🟡</option>
-        <option value="sulit">Sulit 🔴</option>
-      </select>
+      <div class="custom-select">
+        <div class="select-selected" onclick="toggleDropdown('difficulty')">Pilih Kesulitan</div>
+        <div class="select-items select-hide" id="difficulty-options">
+          <div onclick="selectOption('difficulty', 'mudah', 'Mudah 🟢')">Mudah 🟢</div>
+          <div onclick="selectOption('difficulty', 'sedang', 'Sedang 🟡')">Sedang 🟡</div>
+          <div onclick="selectOption('difficulty', 'sulit', 'Sulit 🔴')">Sulit 🔴</div>
+        </div>
+      </div>
+      <input type="hidden" name="difficulty" id="difficulty" required>
 
       <label for="part">Pilih Part (Masakan):</label>
-      <select name="part" id="part" required>
-        <option value="rendang">Rendang</option>
-        <option value="soto">Soto</option>
-        <option value="rawon">Rawon</option>
-      </select>
+      <div class="custom-select">
+        <div class="select-selected" onclick="toggleDropdown('part')">Pilih Masakan</div>
+        <div class="select-items select-hide" id="part-options">
+          <div onclick="selectOption('part', 'rendang', 'Rendang')">Rendang</div>
+          <div onclick="selectOption('part', 'soto', 'Soto')">Soto</div>
+          <div onclick="selectOption('part', 'rawon', 'Rawon')">Rawon</div>
+        </div>
+      </div>
+      <input type="hidden" name="part" id="part" required>
 
       <button type="submit">Mulai 🚀</button>
     </form>
   </div>
-  <div class ="info-container menu-box">
+  
+  <div class="info-container menu-box">
       <p>Game ini dibuat oleh C-TEAM</p>
       <p>NLP TSD 2025</p>
   </div>
